@@ -9,6 +9,6 @@ export const getArticles = text => {
       author: article.author,
       title: article.title,
       content: article.content
-    })))
-    .then(console.log);
+    })));
+
 };

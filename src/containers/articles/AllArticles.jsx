@@ -26,15 +26,9 @@ export default class AllArticles extends Component {
         .then(this.setState({ loading: false }));
     }
      
-
-  
-    
-  
     render() {
       const { text, loading, articles } = this.state;
       if(loading) return <Loading />;
-      
-  
       return (
         <>
           <Controls text={text}
@@ -45,4 +39,3 @@ export default class AllArticles extends Component {
       );
     }
 }
-

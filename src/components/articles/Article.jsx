@@ -17,5 +17,4 @@ Article.propTypes = {
   content: PropTypes.string.isRequired
 };
 
-
 export default Article;

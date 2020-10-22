@@ -6,17 +6,19 @@ const Controls = ({
   onChange,
   onSubmit
 }) => (
-  <form onSubmit={onSubmit}>
-    <label htmlFor="text">Text</label>
-    <input
-      id="text"
-      type="text"
-      name="text"
-      value={text}
-      onChange={onChange}
-    />
-    <button type="submit">Search</button>
-  </form>
+  <>
+    <form onSubmit={onSubmit}>
+      <label htmlFor="text">Text</label>
+      <input
+        id="text"
+        type="text"
+        name="text"
+        value={text}
+        onChange={onChange}
+      />
+      <button type="submit">Search</button>
+    </form>
+  </>
 );
 
 Controls.propTypes = {
