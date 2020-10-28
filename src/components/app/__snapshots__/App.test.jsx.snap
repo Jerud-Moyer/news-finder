@@ -2,24 +2,10 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <form>
-    <label
-      for="text"
-    >
-      Text
-    </label>
-    <input
-      id="text"
-      name="text"
-      type="text"
-      value=""
-    />
-    <button
-      type="submit"
-    >
-      Search
-    </button>
-  </form>
-  <ul />
+  <img
+    alt="spinning globe"
+    class="Loading"
+    src="https://media1.giphy.com/media/QNFk30fVrNtJWzs7o2/giphy.gif"
+  />
 </DocumentFragment>
 `;

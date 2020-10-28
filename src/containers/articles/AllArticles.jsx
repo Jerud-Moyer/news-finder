@@ -7,8 +7,12 @@ import { getArticles } from '../../services/news-api';
 export default class AllArticles extends Component {
   state = {
     text: '',
-    loading: false,
+    loading: true,
     articles: []
+  }
+  
+  componentDidMount() {
+    setTimeout(() => { this.setState({ loading: false }); }, 1000);
   }
 
     handleChange = ({ target }) => {
